@@ -14,3 +14,36 @@
 - Recurrent models
 - Efficient attention mechanisms
 - Electra Pretraining
+
+
+### Repository structure
+Each subdirectory with a different model has its own README with all the details
+
+```
+project
+│   README.md
+│   
+│
+└───src
+│   └─── nlp
+|   |    |
+|   |    └─── attention
+|   |    |     └─── lsh_attention_tf
+|   |    └─── electra_pretraining_framework
+|   |    |
+|   |    └─── reversible_dilated_bert
+│   └───computer_vision
+|        |
+|        └─── object_detection
+|        |     |
+|        |     └─── center_point_detection
+|        |     └─── retinanet
+|        |     └─── yolo
+|        |     object_detection_utils.py
+|        |
+|        └─── segmentation
+|              |
+|              └─── deeplab
+|              └─── unet
+|              segmenation_utils.py
+```
