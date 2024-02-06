@@ -19,31 +19,45 @@
 ### Repository structure
 Each subdirectory with a different model has its own README with all the details
 
-```
-project
-│   README.md
-│   
-│
-└───src
-│   └─── nlp
-|   |    |
-|   |    └─── attention
-|   |    |     └─── lsh_attention_tf
-|   |    └─── electra_pretraining_framework
-|   |    |
-|   |    └─── reversible_dilated_bert
-│   └───computer_vision
-|        |
-|        └─── object_detection
-|        |     |
-|        |     └─── center_point_detection
-|        |     └─── retinanet
-|        |     └─── yolo
-|        |     object_detection_utils.py
-|        |
-|        └─── segmentation
-|              |
-|              └─── deeplab
-|              └─── unet
-|              segmenation_utils.py
-```
+📦src
+ ┣ 📂computer_vision
+ ┃ ┣ 📂object_detection
+ ┃ ┃ ┣ 📂center_point_detection
+ ┃ ┃ ┃ ┣ 📜README.md
+ ┃ ┃ ┃ ┣ 📜center_point_model.py
+ ┃ ┃ ┃ ┣ 📜center_point_model_utils.py
+ ┃ ┃ ┃ ┣ 📜img.png
+ ┃ ┃ ┃ ┗ 📜img_1.png
+ ┃ ┃ ┣ 📂retinanet
+ ┃ ┃ ┃ ┣ 📜README.md
+ ┃ ┃ ┃ ┣ 📜dataset.py
+ ┃ ┃ ┃ ┣ 📜img.png
+ ┃ ┃ ┃ ┣ 📜img_1.png
+ ┃ ┃ ┃ ┣ 📜loss.py
+ ┃ ┃ ┃ ┣ 📜model.py
+ ┃ ┃ ┃ ┣ 📜train.py
+ ┃ ┃ ┃ ┣ 📜utils.py
+ ┃ ┃ ┃ ┗ 📜validation.py
+ ┃ ┃ ┣ 📂yolo
+ ┃ ┃ ┃ ┣ 📜yolo_losses.py
+ ┃ ┃ ┃ ┗ 📜yolo_models.py
+ ┃ ┃ ┗ 📜object_detection_utils.py
+ ┃ ┣ 📂segmentation
+ ┃ ┃ ┣ 📂deeplab
+ ┃ ┃ ┃ ┣ 📜aspp.py
+ ┃ ┃ ┃ ┗ 📜deeplabv3.py
+ ┃ ┃ ┣ 📂unet
+ ┃ ┃ ┃ ┗ 📜unet_models.py
+ ┃ ┃ ┗ 📜segmentation_utils.py
+ ┃ ┗ 📜model_utils.py
+ ┗ 📂nlp
+ ┃ ┣ 📂attention
+ ┃ ┃ ┗ 📜lsh-attention_tf.py
+ ┃ ┣ 📂electra_pretraining_framework
+ ┃ ┃ ┗ 📜modelling_electra.py
+ ┃ ┗ 📂reversible_dilated_bert
+ ┃ ┃ ┣ 📜blocks.py
+ ┃ ┃ ┣ 📜embeddings.py
+ ┃ ┃ ┣ 📜model.py
+ ┃ ┃ ┣ 📜reversible_layer.py
+ ┃ ┃ ┗ 📜sliding_window_attention.py
