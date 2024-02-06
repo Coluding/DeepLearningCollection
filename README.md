@@ -19,6 +19,7 @@
 ### Repository structure
 Each subdirectory with a different model has its own README with all the details
 
+```
 📦src
  ┣ 📂computer_vision
  ┃ ┣ 📂object_detection
@@ -61,3 +62,4 @@ Each subdirectory with a different model has its own README with all the details
  ┃ ┃ ┣ 📜model.py
  ┃ ┃ ┣ 📜reversible_layer.py
  ┃ ┃ ┗ 📜sliding_window_attention.py
+```
