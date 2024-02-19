@@ -44,4 +44,4 @@ Here Center Points were determined for each running track to count the number of
 
 Explore my models and documentation to see how Center Point Detection can be applied to your projects. Whether you're enhancing existing applications or embarking on new challenges, my approach provides a fresh perspective on object detection.
 
-Join us in advancing the field of object detection by focusing on the core of what matters: the precise location and identification of objects in any given image.
+
