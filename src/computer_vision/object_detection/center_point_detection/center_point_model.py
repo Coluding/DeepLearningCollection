@@ -3,7 +3,6 @@ import torch.nn.functional as F
 import torch
 import torchvision
 from typing import Union
-
 from src.computer_vision.model_utils import ModelBase
 
 
