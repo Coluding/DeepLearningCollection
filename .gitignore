@@ -1,5 +1,1 @@
 /.idea
-src/reinforcement_learning/dql_from_scratch/atari/models
-src/reinforcement_learning/multi_agent_dpg/data
-src/reinforcement_learning/td3/tmp
-
